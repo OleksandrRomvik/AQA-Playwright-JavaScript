@@ -28,7 +28,7 @@ export default defineConfig({
   use: {
     headless: false,
     launchOptions: {
-      slowMo: 1000, // Уповільнює кожну дію Playwright на 1000 мс (1 секунду)
+      slowMo: 500, // Уповільнює кожну дію Playwright на 500 мс (0.5 секунди)
     },
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
